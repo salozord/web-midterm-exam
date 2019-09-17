@@ -11,12 +11,12 @@ class ToFollow extends Component {
         return (
             <div key={e.nick}>
                 <div>
-                    <img src={this.state.avatar} alt={this.state.avatar} className="rounded-circle" />
-                    { this.state.first_name } {this.state.last_name}
-                    <span> @{ this.state.nick } . { this.state.date }</span>
+                    <img src={e.avatar} alt={e.avatar} className="rounded-circle" />
+                    { e.first_name } {e.last_name}
+                    <span> @{ e.nick } . { e.date }</span>
                 </div>
                 <div>
-                    <button onClick={}> Seguir </button>
+                    <button onClick={this.seguir}> Seguir </button>
                 </div>
             </div>
         );
