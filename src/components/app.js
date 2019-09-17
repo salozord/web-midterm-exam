@@ -8,7 +8,7 @@ import Footer from './footer';
 
 class App extends Component {
     state = { 
-        menu:[],
+        menu: [],
         tweets: [],
         trends: [],
         tofollow: []
