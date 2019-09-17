@@ -7,7 +7,7 @@ class Menu extends Component {
     render() { 
         return ( 
             <ul>
-                { this.state.menu.map( e => <li key={ e.text }><img src={e.image} alt={e.text}/> { e.text }</li> ) }
+                { this.state.menu.map( e => <li key={ e.text }><img src={e.image} alt={e.text}/>  { e.text }</li> ) }
             </ul>
          );
     }
